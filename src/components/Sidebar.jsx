@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { X, Building2, MapPin, Heart, Search, Phone, Mail, Compass, ShieldCheck } from 'lucide-react';
+import { X, MapPin, Heart, Search, Phone, Mail, Compass, ShieldCheck } from 'lucide-react';
 
 export default function Sidebar({
   isOpen,
@@ -36,17 +36,17 @@ export default function Sidebar({
         {/* Top Header */}
         <div className="p-4 md:p-6 border-b border-[#e6e9ed] flex items-center justify-between text-left">
           <div className="flex flex-col items-start text-left">
-            <span className="font-heading font-black text-lg sm:text-xl text-[#17211d] leading-none block text-left tracking-tight">
+            <span className="brand-logo-text text-xl sm:text-2xl text-[#17211d] leading-none block text-left tracking-tight">
               RealEstate
             </span>
-            <div className="flex items-center gap-1 mt-0.5 text-left">
-              <span className="text-[10px] sm:text-xs font-semibold text-[#5b6471] lowercase leading-none text-left">
+            <div className="flex items-center gap-1.5 mt-0.5 text-left">
+              <span className="text-[11px] sm:text-xs font-semibold text-[#5b6471] lowercase leading-none text-left">
                 by
               </span>
               <img
                 src="/logo3-cropped.png"
                 alt="Reservia"
-                className="h-3 sm:h-3.5 w-auto object-contain object-left block"
+                className="h-3.5 sm:h-4 w-auto object-contain object-left block"
               />
             </div>
           </div>

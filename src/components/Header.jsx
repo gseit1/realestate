@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Search, Menu, MapPin, Building2, ChevronDown, Check } from 'lucide-react';
+import { Search, Menu, MapPin, ChevronDown, Check } from 'lucide-react';
 
 export default function Header({
   selectedCity,
@@ -95,17 +95,17 @@ export default function Header({
           className="flex flex-col items-start justify-center text-left bg-transparent border-none cursor-pointer p-0 group"
           aria-label="Αρχική σελίδα RealEstate"
         >
-          <span className="font-heading font-black text-lg sm:text-xl md:text-2xl text-[#17211d] tracking-tight leading-none text-left">
+          <span className="brand-logo-text text-xl sm:text-2xl text-[#17211d] tracking-tight leading-none text-left">
             RealEstate
           </span>
-          <div className="flex items-center gap-1 mt-0.5 text-left">
-            <span className="text-[10px] sm:text-xs font-semibold text-[#5b6471] lowercase leading-none text-left">
+          <div className="flex items-center gap-1.5 mt-0.5 text-left">
+            <span className="text-[11px] sm:text-xs font-semibold text-[#5b6471] lowercase leading-none text-left">
               by
             </span>
             <img
               src="/logo3-cropped.png"
               alt="Reservia"
-              className="h-3 sm:h-3.5 w-auto object-contain object-left block"
+              className="h-3.5 sm:h-4 w-auto object-contain object-left block"
             />
           </div>
         </button>

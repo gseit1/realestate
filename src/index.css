@@ -78,6 +78,12 @@ h1, h2, h3 {
   font-weight: var(--heading-weight);
 }
 
+.brand-logo-text {
+  font-family: var(--font-heading) !important;
+  font-weight: 800 !important;
+  -webkit-text-stroke: 0.2px currentColor;
+}
+
 button, input, select, textarea, label, p, span, a, .ui-text {
   font-family: var(--font-ui);
 }

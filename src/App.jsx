@@ -6,7 +6,7 @@ import HomePage from './pages/HomePage';
 import EstatePage from './pages/EstatePage';
 import EstateCard from './components/EstateCard';
 import { estatesData } from './data/estates';
-import { Building2, MapPin, Phone, Mail, ArrowLeft, Heart } from 'lucide-react';
+import { MapPin, ArrowLeft, Heart } from 'lucide-react';
 
 export default function App() {
   const [selectedCity, setSelectedCity] = useState('Αθήνα');
@@ -204,17 +204,17 @@ export default function App() {
             {/* Brand column */}
             <div className="md:col-span-2 flex flex-col gap-2">
               <div className="flex flex-col items-start text-left">
-                <span className="font-heading font-black text-xl sm:text-2xl text-white tracking-tight leading-none text-left">
+                <span className="brand-logo-text text-2xl sm:text-3xl text-white tracking-tight leading-none text-left">
                   RealEstate
                 </span>
-                <div className="flex items-center gap-1 mt-0.5 text-left">
-                  <span className="text-xs font-semibold text-white/80 lowercase leading-none text-left">
+                <div className="flex items-center gap-1.5 mt-0.5 text-left">
+                  <span className="text-xs font-semibold text-white/90 lowercase leading-none text-left">
                     by
                   </span>
                   <img
                     src="/logo3-cropped.png"
                     alt="Reservia"
-                    className="h-3.5 sm:h-4 w-auto object-contain object-left brightness-200 block"
+                    className="h-4 sm:h-4.5 w-auto object-contain object-left brightness-200 block"
                   />
                 </div>
               </div>
